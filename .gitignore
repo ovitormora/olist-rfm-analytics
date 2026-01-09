@@ -1,0 +1,43 @@
+# --- Python Bytecode (Arquivos compilados gerados automaticamente) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Ambientes Virtuais (NUNCA envie isso para o Git) ---
+# Nomes comuns de pastas de ambiente virtual
+venv/
+.venv/
+env/
+ENV/
+bin/
+
+# --- Variáveis de Ambiente e Segredos (SEGURANÇA CRÍTICA) ---
+# Contém senhas, chaves de API e configs do banco.
+# Crie um .env.example para comitar, mas ignore o .env real.
+.env
+.env.local
+.env.*.local
+
+# --- IDEs e Editores de Texto (Configurações da sua máquina) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Distribuição e Build (Se for criar pacotes) ---
+build/
+dist/
+*.egg-info/
+
+# --- Testes e Coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# --- Jupyter Notebooks (Se usar) ---
+.ipynb_checkpoints
+
+# --- Logs e Bancos de Dados Locais ---
+*.log
+*.sqlite3
